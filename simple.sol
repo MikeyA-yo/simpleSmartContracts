@@ -2,6 +2,9 @@
 pragma solidity ^0.8.0;
 
 contract SimpleMath {
-    uint public x;
+    uint public x = 9;
     address public myAddress = address(this);
+    function setX(uint _x) public {
+        x = _x;
+    }
 }
