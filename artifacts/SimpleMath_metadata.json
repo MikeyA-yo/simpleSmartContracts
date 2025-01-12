@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "myAddress",
 				"outputs": [
 					{
@@ -16,6 +29,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "receiveWei",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -73,11 +93,11 @@
 	},
 	"sources": {
 		"simple.sol": {
-			"keccak256": "0x035a39c8ef4dca81a92568c4c89ce6a3df2a4a8703b27a4e88b38d0881c31fb1",
+			"keccak256": "0xcf97b14f68ee52b21ae9b695a55b34e324d20a0db04906e737ddd3bb63d812a7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://44cda51e0814ca6b925ba6a04b091967dc56bd752ddc09bee485b1a4e4962310",
-				"dweb:/ipfs/QmeChqAiY4Lij6DXMNe44Tqnyuh9EwT1yNt9XEgasJPfN8"
+				"bzz-raw://ff007f8eefbb6ea91eefe75e50cec4217db5a775f8d3ac3b594cfb2c12a843f5",
+				"dweb:/ipfs/QmUqoJvCemaRPBXRWwsDcjaF5r6ogUZPQrc7SrLAoSMXBh"
 			]
 		}
 	},

@@ -7,4 +7,10 @@ contract SimpleMath {
     function setX(uint _x) public {
         x = _x;
     }
+    function receiveWei() external payable {
+
+     }
+    function getBalance() public view returns (uint){
+        return myAddress.balance;
+    }
 }
